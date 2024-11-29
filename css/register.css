@@ -1,0 +1,84 @@
+.register {
+    background-color: #1a1414;
+    height: 250px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 31, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+  }
+  .register h1 {
+    font-weight: bold;
+    padding: 15px;
+    font-size: 30px;
+  }
+  .register p {
+    color: #ff0000;
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .button5 {
+    height: auto;
+    margin-top: 20px;
+    background: transparent;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button5 {
+    --border-right: 6px;
+    --text-stroke-color: rgba(255, 255, 255, 0.6);
+    --animation-color: #ff0000;
+    --fs-size: 2em;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    font-family: "Arial";
+    position: relative;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: 1px var(--text-stroke-color);
+  }
+  .hover-text {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+  }
+  /* hover */
+  .button5:hover .hover-text {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+  }
+  @media only screen and (max-width: 480px) {
+    .register {
+      height: auto;
+      padding: 0; 
+    }
+    
+    .register h1 {
+      font-size: 20px;
+      margin-bottom: 0;
+      padding: 10px;
+    }
+    
+    .register p {
+      font-size: 16px;
+      padding: 10px;
+    }
+    .button5{
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+  }

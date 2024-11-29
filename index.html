@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Artiverse 2K24</title>
+    <link rel="icon" type="image/webp" href="/images/logo-webp.webp">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/timeline.css" />
+    <link rel="stylesheet" href="css/timer.css" />
+    <link rel="stylesheet" href="css/theme.css" />
+    <link rel="stylesheet" href="css/prizes.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/register.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+            if(window.innerWidth <= 600) {
+                document.getElementById('myVideo').src = document.getElementById('mobileVideo').src;
+                document.getElementById('myVideo').setAttribute('poster', 'src/ver_poster.png');
+            } else {
+                document.getElementById('myVideo').src = document.getElementById('desktopVideo').src;
+                document.getElementById('myVideo').setAttribute('poster', 'src/hor_poster.png');
+            }
+            setTimeout(function() {
+            document.getElementById('myVideo').pause();
+        },12000);
+
+        });
+        
+        
+  </script>
+  </head>
+  <body>
+    <div id="Video">
+      <video id="myVideo" autoplay muted>
+          <source id="desktopVideo" src="src/Artiverse_HD_horizontal.webm" type="video/webm">
+          <source id="mobileVideo" src="src/Artiverse_HD_vertical.webm" type="video/webm">
+      </video>
+      
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <div id="cont">
+      <main>
+        <h1>Get your laptops ready!</h1>
+        <div class="countdown">
+          <div class="countdown-block">
+            <span class="days time-elem">
+              <span class="top">00</span>
+              <span class="top-back">
+                <span>00</span>
+              </span>
+              <span class="bottom">00</span>
+              <span class="bottom-back">
+                <span>00</span>
+              </span>
+            </span>
+            <span class="title">Days</span>
+          </div>
+          <div class="countdown-block">
+            <span class="hours time-elem">
+              <span class="top">00</span>
+              <span class="top-back">
+                <span>00</span>
+              </span>
+              <span class="bottom">00</span>
+              <span class="bottom-back">
+                <span>00</span>
+              </span>
+            </span>
+            <span class="title">Hours</span>
+          </div>
+          <div class="countdown-block">
+            <span class="minutes time-elem">
+              <span class="top">00</span>
+              <span class="top-back">
+                <span>00</span>
+              </span>
+              <span class="bottom">00</span>
+              <span class="bottom-back">
+                <span>00</span>
+              </span>
+            </span>
+            <span class="title">Minutes</span>
+          </div>
+
+          <div class="countdown-block">
+            <span class="seconds time-elem">
+              <span class="top">00</span>
+              <span class="top-back">
+                <span>00</span>
+              </span>
+              <span class="bottom">00</span>
+              <span class="bottom-back">
+                <span>00</span>
+              </span>
+            </span>
+            <span class="title">Seconds</span>
+          </div>
+        </div>
+      </main>
+    </div>
+    <div class="register">
+      <h1>Get on board</h1>
+      <p>Welcome to ARTIVERSE Hackathon! Join us for an opportunity to innovate, collaborate, and problem-solve. Register now and be part of the excitement and learning journey ahead!</p>
+            <a href="https://form.jotform.com/240670363237454" target="_blank">
+              <button class="button5" data-text="Register">
+        <span class="actual-text">&nbsp;Register &nbsp;</span>
+        <span aria-hidden="true" class="hover-text">&nbsp;Register&nbsp;</span>
+    </button>        </a>
+    </div>
+    
+    <div class="heading">
+      <h1>About Us</h1>
+      <p>
+        AIMASTER advances AI and data science through education, research, and
+        community engagement, empowering members to innovate responsibly and
+        drive positive change.
+      </p>
+    </div>
+    <div class="container">
+      <section class="about">
+        <div class="about-image">
+          <img src="images/aimaster.webp" alt="" />
+        </div>
+        <div class="about-content">
+          <h2>Points To Remember:</h2>
+ <p>📅 Date: 22th March to 23th March 2024</p>
+          <p>🪪 ID Mandatory</p>
+          <p>🤖 AI tools not Allowed</p>
+          <p>🖥️ System will be Provided</p>
+          <p>🎉 Free Registration</p>
+          <p>🛏️ Accomodation will be Provided</p>
+          <p>🎁 Additional prizes awarded based on performance, excluding top 3.</p>
+           <p>📍 Both Abstract and Problems are given. (Click Download)</p>
+            <button type="button" class="button1" onclick="downloadFiles()">
+              <span class="button__text">Download</span>
+              <span class="button__icon"
+                ><svg
+                  class="svg"
+                  data-name="Layer 2"
+                  id="bdd05811-e15d-428c-bb53-8661459f9307"
+                  viewBox="0 0 35 35"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M17.5,22.131a1.249,1.249,0,0,1-1.25-1.25V2.187a1.25,1.25,0,0,1,2.5,0V20.881A1.25,1.25,0,0,1,17.5,22.131Z"
+                  ></path>
+                  <path
+                    d="M17.5,22.693a3.189,3.189,0,0,1-2.262-.936L8.487,15.006a1.249,1.249,0,0,1,1.767-1.767l6.751,6.751a.7.7,0,0,0,.99,0l6.751-6.751a1.25,1.25,0,0,1,1.768,1.767l-6.752,6.751A3.191,3.191,0,0,1,17.5,22.693Z"
+                  ></path>
+                  <path
+                    d="M31.436,34.063H3.564A3.318,3.318,0,0,1,.25,30.749V22.011a1.25,1.25,0,0,1,2.5,0v8.738a.815.815,0,0,0,.814.814H31.436a.815.815,0,0,0,.814-.814V22.011a1.25,1.25,0,1,1,2.5,0v8.738A3.318,3.318,0,0,1,31.436,34.063Z"
+                  ></path></svg></span>
+            </button>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <section class="timeline">
+      <h1>Event Schedule</h1>
+      <ul>
+        <li>
+          <div><time> Registration starts  (7/3/24 - 15/3/24)</time></div>
+        </li>
+        <li>
+          <div><time>Validation of Ideas (15/3/24 - 16/3/24)</time> </div>
+        </li>
+        <li>
+          <div>
+            <time>Announcement of Shortlisted Participants (18/3/24)</time> 
+          </div>
+        </li>
+        <li>
+          <div><time>Hackathon Event (22/3/24)</time> </div>
+        </li>
+        <li>
+          <div><time>Final Announcement (23/3/24)</time> </div>
+        </li>
+      </ul>
+    </section>
+
+    <div class="card-container10">
+      <h1 class="cards-heading10">Themes</h1>
+
+      <div class="card10">
+        <img src="images/cyber.webp" alt="Card Image" />
+        <div class="card__content10">
+          <p class="card__title10">Cyber Security</p>
+        </div>
+      </div>
+      <div class="card10">
+        <img src="images/virtual.webp" alt="Card Image" />
+        <div class="card__content10">
+          <p class="card__title10">AR / VR</p>
+        </div>
+      </div>
+      <div class="card10">
+        <img src="images/th (1).webp" alt="Card Image" />
+        <div class="card__content10">
+          <p class="card__title10">Drone Technology</p>
+        </div>
+      </div>
+      <div class="card10">
+        <img src="images/th.webp" alt="Card Image" />
+        <div class="card__content10">
+          <p class="card__title10">Smart Automation</p>
+        </div>
+      </div>
+      <div class="card10">
+        <img
+          src="images/WhatsApp Image 2024-02-27 at 12.53.06_3bad4c84.webp"
+          alt="Card Image"
+        />
+        <div class="card__content10">
+          <p class="card__title10">Green Technology</p>
+        </div>
+      </div>
+      <div class="card10">
+        <img src="images/download.webp" alt="Card Image" />
+        <div class="card__content10">
+          <p class="card__title10">CV / NLP</p>
+        </div>
+      </div>
+      <div class="card10">
+        <img src="images/sci.webp" alt="Card Image" />
+        <div class="card__content10">
+          <p class="card__title10">Scientific Learning</p>
+        </div>
+      </div>
+      <div class="card10">
+        <img src="images/th (2).webp" alt="Card Image" />
+        <div class="card__content10">
+          <p class="card__title10">Others</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="prizes">
+      <h1>prizes</h1>
+      <div class="row">
+        <div class="card">
+          <div class="icon">
+            <svg
+              width="34"
+              height="34"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                opacity="0.5"
+                d="M12 16C6.24 16 5.22 10.26 5.04 5.706C4.99 4.44 4.964 3.806 5.44 3.221C5.916 2.635 6.485 2.539 7.624 2.347C9.07049 2.10993 10.5342 1.99387 12 2C13.783 2 15.253 2.157 16.377 2.347C17.515 2.539 18.085 2.635 18.56 3.221C19.036 3.807 19.011 4.44 18.96 5.706C18.78 10.259 17.76 16 12 16Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M17.64 12.422L20.457 10.857C21.209 10.439 21.585 10.23 21.793 9.878C22 9.526 22 9.096 22 8.235V8.162C22 7.119 22 6.597 21.717 6.204C21.434 5.811 20.939 5.646 19.949 5.316L19 5L18.983 5.085C18.978 5.274 18.97 5.48 18.961 5.706C18.873 7.931 18.584 10.439 17.641 12.422M5.04 5.706C5.127 7.931 5.416 10.439 6.36 12.422L3.543 10.857C2.791 10.439 2.414 10.23 2.207 9.878C2 9.526 2 9.096 2 8.235V8.162C2 7.119 2 6.597 2.283 6.204C2.566 5.811 3.061 5.646 4.051 5.316L5 5L5.017 5.087C5.022 5.275 5.03 5.481 5.039 5.707"
+                fill="url(#gradientColor)"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.25 22C5.25 21.8011 5.32902 21.6103 5.46967 21.4697C5.61032 21.329 5.80109 21.25 6 21.25H18C18.1989 21.25 18.3897 21.329 18.5303 21.4697C18.671 21.6103 18.75 21.8011 18.75 22C18.75 22.1989 18.671 22.3897 18.5303 22.5303C18.3897 22.671 18.1989 22.75 18 22.75H6C5.80109 22.75 5.61032 22.671 5.46967 22.5303C5.32902 22.3897 5.25 22.1989 5.25 22Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                opacity="0.5"
+                d="M15.458 21.25H8.543L8.84 19.5C8.88529 19.2734 9.00767 19.0695 9.18633 18.9229C9.365 18.7763 9.58891 18.6961 9.82 18.696H14.18C14.4113 18.6959 14.6354 18.776 14.8143 18.9226C14.9931 19.0692 15.1157 19.2732 15.161 19.5L15.458 21.25Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M12 16C11.74 16 11.49 15.989 11.25 15.966V18.696H12.75V15.966C12.5007 15.9891 12.2504 16.0004 12 16Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M10.5 7.125L12 6V10.5"
+                stroke="url(#gradientColor)"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <linearGradient id="gradientColor">
+                <stop offset="5%" stop-color="#7eaaff"></stop>
+                <stop offset="95%" stop-color="#ff48fb"></stop>
+              </linearGradient>
+            </svg>
+          </div>
+          <p class="title">First prize</p>
+          <p class="text">₹5000</p>
+        </div>
+        <div class="card">
+          <div class="icon">
+            <svg
+              width="34"
+              height="34"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                opacity="0.5"
+                d="M12 16C6.24 16 5.22 10.26 5.04 5.706C4.99 4.44 4.964 3.806 5.44 3.221C5.916 2.635 6.485 2.539 7.624 2.347C9.07049 2.10993 10.5342 1.99387 12 2C13.783 2 15.253 2.157 16.377 2.347C17.515 2.539 18.085 2.635 18.56 3.221C19.036 3.807 19.011 4.44 18.96 5.706C18.78 10.259 17.76 16 12 16Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M17.64 12.422L20.457 10.857C21.209 10.439 21.585 10.23 21.793 9.878C22 9.526 22 9.096 22 8.235V8.162C22 7.119 22 6.597 21.717 6.204C21.434 5.811 20.939 5.646 19.949 5.316L19 5L18.983 5.085C18.978 5.274 18.97 5.48 18.961 5.706C18.873 7.931 18.584 10.439 17.641 12.422M5.04 5.706C5.127 7.931 5.416 10.439 6.36 12.422L3.543 10.857C2.791 10.439 2.414 10.23 2.207 9.878C2 9.526 2 9.096 2 8.235V8.162C2 7.119 2 6.597 2.283 6.204C2.566 5.811 3.061 5.646 4.051 5.316L5 5L5.017 5.087C5.022 5.275 5.03 5.481 5.039 5.707"
+                fill="url(#gradientColor)"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.25 22C5.25 21.8011 5.32902 21.6103 5.46967 21.4697C5.61032 21.329 5.80109 21.25 6 21.25H18C18.1989 21.25 18.3897 21.329 18.5303 21.4697C18.671 21.6103 18.75 21.8011 18.75 22C18.75 22.1989 18.671 22.3897 18.5303 22.5303C18.3897 22.671 18.1989 22.75 18 22.75H6C5.80109 22.75 5.61032 22.671 5.46967 22.5303C5.32902 22.3897 5.25 22.1989 5.25 22Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                opacity="0.5"
+                d="M15.458 21.25H8.543L8.84 19.5C8.88529 19.2734 9.00767 19.0695 9.18633 18.9229C9.365 18.7763 9.58891 18.6961 9.82 18.696H14.18C14.4113 18.6959 14.6354 18.776 14.8143 18.9226C14.9931 19.0692 15.1157 19.2732 15.161 19.5L15.458 21.25Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M12 16C11.74 16 11.49 15.989 11.25 15.966V18.696H12.75V15.966C12.5007 15.9891 12.2504 16.0004 12 16Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M10.5 7H12.75C12.9489 7 13.1397 7.05268 13.2803 7.14645C13.421 7.24021 13.5 7.36739 13.5 7.5V8.5C13.5 8.63261 13.421 8.75979 13.2803 8.85355C13.1397 8.94732 12.9489 9 12.75 9H11.25C11.0511 9 10.8603 9.05268 10.7197 9.14645C10.579 9.24021 10.5 9.36739 10.5 9.5V10.5C10.5 10.6326 10.579 10.7598 10.7197 10.8536C10.8603 10.9473 11.0511 11 11.25 11H13.5"
+                stroke="url(#gradientColor)"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+          <p class="title">Second Prize</p>
+          <p class="text">₹3000</p>
+          <!-- Second card content -->
+        </div>
+        <div class="card">
+          <div class="icon">
+            <svg
+              width="34"
+              height="34"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                opacity="0.5"
+                d="M12 16C6.24 16 5.22 10.26 5.04 5.706C4.99 4.44 4.964 3.806 5.44 3.221C5.916 2.635 6.485 2.539 7.624 2.347C9.07049 2.10993 10.5342 1.99386 12 2C13.783 2 15.253 2.157 16.377 2.347C17.515 2.539 18.085 2.635 18.56 3.221C19.036 3.807 19.011 4.44 18.96 5.706C18.78 10.259 17.76 16 12 16Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M17.64 12.422L20.457 10.857C21.209 10.439 21.585 10.23 21.793 9.878C22 9.526 22 9.096 22 8.235V8.162C22 7.119 22 6.597 21.717 6.204C21.434 5.811 20.939 5.646 19.949 5.316L19 5L18.983 5.085C18.978 5.274 18.97 5.48 18.961 5.706C18.873 7.931 18.584 10.439 17.641 12.422M5.04 5.706C5.127 7.931 5.416 10.439 6.36 12.422L3.543 10.857C2.791 10.439 2.414 10.23 2.207 9.878C2 9.526 2 9.096 2 8.235V8.162C2 7.119 2 6.597 2.283 6.204C2.566 5.811 3.061 5.646 4.051 5.316L5 5L5.017 5.087C5.022 5.275 5.03 5.481 5.039 5.707"
+                fill="url(#gradientColor)"
+              />
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M5.25 22C5.25 21.8011 5.32902 21.6103 5.46967 21.4697C5.61032 21.329 5.80109 21.25 6 21.25H18C18.1989 21.25 18.3897 21.329 18.5303 21.4697C18.671 21.6103 18.75 21.8011 18.75 22C18.75 22.1989 18.671 22.3897 18.5303 22.5303C18.3897 22.671 18.1989 22.75 18 22.75H6C5.80109 22.75 5.61032 22.671 5.46967 22.5303C5.32902 22.3897 5.25 22.1989 5.25 22Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                opacity="0.5"
+                d="M15.458 21.25H8.543L8.84 19.5C8.88529 19.2734 9.00767 19.0695 9.18633 18.9229C9.365 18.7763 9.58891 18.6961 9.82 18.696H14.18C14.4113 18.6959 14.6354 18.776 14.8143 18.9226C14.9931 19.0692 15.1157 19.2732 15.161 19.5L15.458 21.25Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M12 16C11.74 16 11.49 15.989 11.25 15.966V18.696H12.75V15.966C12.5007 15.9891 12.2504 16.0004 12 16Z"
+                fill="url(#gradientColor)"
+              />
+              <path
+                d="M10.5 7H12.375C12.6734 7 12.9595 7.07902 13.1705 7.21967C13.3815 7.36032 13.5 7.55109 13.5 7.75V8.25C13.5 8.44891 13.3815 8.63968 13.1705 8.78033C12.9595 8.92098 12.6734 9 12.375 9M12.375 9H11.25M12.375 9C12.6734 9 12.9595 9.07902 13.1705 9.21967C13.3815 9.36032 13.5 9.55109 13.5 9.75V10.25C13.5 10.4489 13.3815 10.6397 13.1705 10.7803C12.9595 10.921 12.6734 11 12.375 11H10.5"
+                stroke="url(#gradientColor)"
+                stroke-width="1.5"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <linearGradient id="gradientColor">
+                <stop offset="5%" stop-color="#7eaaff"></stop>
+                <stop offset="95%" stop-color="#ff48fb"></stop>
+              </linearGradient>
+            </svg>
+          </div>
+          <p class="title">Third Prize</p>
+          <p class="text">₹2000</p>
+          
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <h1>Contact</h1>
+      <div class="container">
+        <div class="section">
+          <h2 style="color: rgb(244, 0, 0)" id="coordinator2">Staff Coordinator</h2>
+
+          <h4><a href="tel:+918667811924">Vanitha M  8667811924</a></h4>
+
+        </div>
+        <div class="section">
+          <h2 style="color: rgb(244, 0, 0)" id="coordinator1">Student Coordinators</h2>
+          <h4><a href="tel:+919585064438">Vikram V  9585064438</a></h4>
+<h4><a href="tel:+917305044131">Logesh P  7305044131</a></h4>
+<h4><a href="tel:+919629546144">Sanjay R  9629546144</a></h4>
+<h4><a href="tel:+916385432136">Shanthiya R 6385432136</a></h4>
+<h4><a href="tel:+919080697876">Shalini A  9080697876</a></h4>
+
+        </div>
+        <div class="section">
+          <h1 style="color: rgb(244, 0, 0); margin-bottom: 10px;  font-weight: 900; font-size: 25px;">
+            Contact us on
+          </h1>
+          <a href="mailto:" class="email-link">artiverse2k24.ad@gmail.com</a>
+        </div>
+      </div>
+      <div class="bottom-bar">
+    <p>Developed by 
+        <a href="https://www.linkedin.com/in/vikram-v-065564234">Vikram</a>, 
+        <a href="https://www.linkedin.com/in/logesh-p-b74451250">Logesh</a> and 
+        <a href="https://www.linkedin.com/in/sabarikameswaran">Sabari Kameswaran.</a>
+    </p>
+    <a id="copyright">&copy; ARTIVERSE 2024</a>
+</div>
+
+
+</div>
+
+    </div>
+
+    <script src="js/timeline.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/theme.js"></script>
+    <script src="js/download.js"></script>
+  </body>
+</html>
